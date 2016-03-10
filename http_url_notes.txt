@@ -1,0 +1,9 @@
+This is my class that demonstrates HTTP URL connection.
+The class works with the following steps
+
+1. Create new URL
+2. Open connection, cast connection to HttpURLConnection
+3. Set request method to GET
+4. Set read timeout to 15 seconds, open connection
+5. Read data using InputStreamReader and BufferedReader
+6. Read output from URL, add to StringBuilder, convert StringBuilder to a String when method returns.
